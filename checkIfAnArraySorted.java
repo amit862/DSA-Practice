@@ -8,6 +8,7 @@ public class checkIfAnArraySorted {
         if (arr[idx] < arr[idx + 1]) {
             // aaray is sorted till now
             return isSorted(arr, idx + 1);
+
         } else {
             return false;
         }
